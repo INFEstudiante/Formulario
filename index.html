@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Graficos</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="StyleFormGrafic.css">
+</head>
+<body>
+    <br><h2>Formulario para mostrar grafico</h2><br>
+<form id="form-param">
+    
+<div class="container">
+<br><h3>Agrege mas datos y asignale valor a cada uno y pulse el boton "Mostrar resultados" para ver los resultados en el grafico</h3><br>  
+
+<div>
+<input type="text" class="parametro" placeholder="Datos"><input type="number" class="valor" placeholder="valor">
+</div>
+    	    
+<div>
+<input type="text" class="parametro" placeholder="Datos"><input type="number" class="valor" placeholder="valor">
+</div>
+
+</div>
+
+<div class="buttons">
+<button type="button" class="addParam">Agregar Parametro</button>
+<button type="button" class="showResults">Mostrar Resultados</button>
+</div>
+
+</form>
+<div id="grafico"></div>
+<script src="MostrarGrafic.js"></script>
+</body>
+</html>
